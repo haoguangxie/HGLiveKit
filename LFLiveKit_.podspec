@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "LFLiveKit_"
-  s.version      = "3.0"
+  s.version      = "3.0.1"
   s.summary      = "LaiFeng ios Live. LFLiveKit. This library fix audioBitrate metadata"
   s.homepage     = "https://github.com/chenliming777"
   s.license      = { :type => "MIT", :file => "LICENSE" }
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
   s.pod_target_xcconfig = { 'HEADER_SEARCH_PATHS' => '${PODS_ROOT}/Headers/Private/OpenSSL_Universal/** ${PODS_ROOT}/Headers/Public/OpenSSL_Universal/**' }
 
-  s.dependency 'OpenSSL-Universal', '1.0.2.17'
+  s.dependency 'OpenSSL-Universal', '1.0.2.19'
   s.static_framework = true
   s.requires_arc = true
 end
