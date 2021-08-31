@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
 
-  s.name         = "LFLiveKit_"
+  s.name         = "LFLiveKit"
   s.version      = "3.0.1"
   s.summary      = "LaiFeng ios Live. LFLiveKit. This library fix audioBitrate metadata"
   s.homepage     = "https://github.com/chenliming777"
