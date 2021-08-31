@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
   s.pod_target_xcconfig = { 'HEADER_SEARCH_PATHS' => '${PODS_ROOT}/Headers/Private/OpenSSL_Universal/** ${PODS_ROOT}/Headers/Public/OpenSSL_Universal/**' }
 
-  s.dependency 'OpenSSL-Universal', '1.0.2.19'
+  s.dependency 'OpenSSL-Universal'
   s.static_framework = true
   s.requires_arc = true
 end
