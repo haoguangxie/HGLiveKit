@@ -162,6 +162,7 @@
 
 - (void)setMirror:(BOOL)mirror {
     _mirror = mirror;
+	[self reloadFilter];
 }
 
 - (void)setBeautyFace:(BOOL)beautyFace{
