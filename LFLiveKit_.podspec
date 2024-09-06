@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
 
-  s.name         = "LFLiveKit_"
+  s.name         = "HGLiveKit"
   s.version      = "3.0.3"
   s.summary      = "LaiFeng ios Live. LFLiveKit. This library fix audioBitrate metadata"
   s.homepage     = "https://github.com/chenliming777"
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.author       = { "chenliming" => "chenliming777@qq.com" }
   s.platform     = :ios, "7.0"
   s.ios.deployment_target = "7.0"
-  s.source       = { :git => "https://github.com/kennic/LFLiveKit.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/haoguangxie/HGLiveKit.git", :tag => "#{s.version}" }
   s.source_files  = "LFLiveKit/**/*.{h,m,mm,cpp,c}"
   s.public_header_files = ['LFLiveKit/*.h', 'LFLiveKit/objects/*.h', 'LFLiveKit/configuration/*.h']
 
